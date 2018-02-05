@@ -1,0 +1,5 @@
+hub HS
+shortLabel HS
+longLabel HS
+genomesFile genomes.txt
+email sijungyun@gmail.com
