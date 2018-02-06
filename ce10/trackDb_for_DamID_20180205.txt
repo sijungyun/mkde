@@ -1,0 +1,140 @@
+track HS
+type bigWig
+container multiWig
+shortLabel HS
+longLabel Heat Shock, L2/L3, red's: lin-29 DamID, blue's: control
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:300:8
+viewLimits 0:500
+priority 1
+
+track HS1
+bigDataUrl https://raw.githubusercontent.com/sijungyun/mkde/master/data/bw/lin29_L23_HS_1_with_chr.bw
+shortLabel HS1
+longLabel Heat Shock, L2/L3, Replicate 1
+type bigWig
+parent HS
+color 238,130,238
+
+track HS2
+bigDataUrl https://raw.githubusercontent.com/sijungyun/mkde/master/data/bw/lin29_L23_HS_2_with_chr.bw
+shortLabel HS2
+longLabel Heat Shock, L2/L3, Replicate 2
+type bigWig
+parent HS
+color 250,128,114
+
+track HS3
+bigDataUrl https://raw.githubusercontent.com/sijungyun/mkde/master/data/bw/lin29_L23_HS_3_with_chr.bw
+shortLabel HS3
+longLabel Heat Shock, L2/L3, Replicate 3
+type bigWig
+parent HS
+color 255,99,71
+
+track ControlHS1
+bigDataUrl https://raw.githubusercontent.com/sijungyun/mkde/master/data/bw/control_L23_HS_1_with_chr.bw
+shortLabel Control1
+longLabel Control, L2/L3, Replicate 1
+type bigWig
+parent HS
+color 0,0,255
+
+track ControlHS2
+bigDataUrl https://raw.githubusercontent.com/sijungyun/mkde/master/data/bw/control_L23_HS_2_with_chr.bw
+shortLabel Control2
+longLabel Control, L2/L3, Replicate 2
+type bigWig
+parent HS
+color 0,191,255
+
+track ControlHS3
+bigDataUrl https://raw.githubusercontent.com/sijungyun/mkde/master/data/bw/control_L23_HS_3_with_chr.bw
+shortLabel Control3
+longLabel Control, L2/L3, Replicate 3
+type bigWig
+parent HS
+color 135,206,235
+
+
+
+
+
+
+track L4
+type bigWig
+container multiWig
+shortLabel L4
+longLabel L4, red's: lin-29 DamID, blue's: control
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:300:8
+viewLimits 0:500
+priority 2
+
+track L4_1
+bigDataUrl https://raw.githubusercontent.com/sijungyun/mkde/master/data/bw/lin29_L4_Tetsu_1_with_chr.bw
+shortLabel L4_1
+longLabel L4_1
+type bigWig
+parent L4
+color 238,130,238
+
+track L4_2
+bigDataUrl https://raw.githubusercontent.com/sijungyun/mkde/master/data/bw/lin29_L4_Tetsu_2_with_chr.bw
+shortLabel L4_2
+longLabel L4_2
+type bigWig
+parent L4
+color 250,128,114
+
+track L4_3
+bigDataUrl https://raw.githubusercontent.com/sijungyun/mkde/master/data/bw/lin29_L4_Tetsu_3_with_chr.bw
+shortLabel L4_3
+longLabel L4_3
+type bigWig
+parent L4
+color 255,99,71
+
+track L4_4
+bigDataUrl https://raw.githubusercontent.com/sijungyun/mkde/master/data/bw/lin29_L4_Tetsu_4_with_chr.bw
+shortLabel L4_4
+longLabel L4_4
+type bigWig
+parent L4
+color 218,112,214
+
+track ControlL4_1
+bigDataUrl https://raw.githubusercontent.com/sijungyun/mkde/master/data/bw/control_L4_Tetsu_1_with_chr.bw
+shortLabel Control1
+longLabel Control1
+type bigWig
+parent L4
+color 175,238,238
+
+track ControlL4_2
+bigDataUrl https://raw.githubusercontent.com/sijungyun/mkde/master/data/bw/control_L4_Tetsu_2_with_chr.bw
+shortLabel Control2
+longLabel Control2
+type bigWig
+parent L4
+color 135,206,235
+
+track ControlL4_3
+bigDataUrl https://raw.githubusercontent.com/sijungyun/mkde/master/data/bw/control_L4_Tetsu_3_with_chr.bw
+shortLabel Control3
+longLabel Control3
+type bigWig
+parent L4
+color 65,105,225
+
+track ControlL4_4
+bigDataUrl https://raw.githubusercontent.com/sijungyun/mkde/master/data/bw/control_L4_Tetsu_4_with_chr.bw
+shortLabel Control4
+longLabel Control4
+type bigWig
+parent L4
+color 95,158,160
