@@ -140,7 +140,7 @@ color 95,158,160
          
 track GATC_sites
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/DamID_UCSC_hub/bigbed/GATC_sites.ce10.bb
-type bigbed
+type bigBed
 shortLabel GATC_sites
 longLabel GATC_sites
 maxHeightPixels 500:150:8
