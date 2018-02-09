@@ -175,8 +175,8 @@ track Peaks_L4
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/DamID_UCSC_hub/bigbed/peaks_in_lin29_L4_with_FDR_0.00001_cutoff.bb
 type bigBed
 visibility dense
-shortLabel Peaks_L4
-longLabel Peaks_L4
+shortLabel Peaks_L4_0.00001
+longLabel Peaks_L4_Cutoff_FDR_0.00001
 maxHeightPixels 500:150:8
 viewLimits 0:500
 priority 6
