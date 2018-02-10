@@ -69,7 +69,7 @@ aggregate transparentOverlay
 showSubtrackColorOnUi on
 maxHeightPixels 500:300:8
 viewLimits 0:500
-priority 4
+priority 5
 
 track L4_1
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/DamID_UCSC_hub/bw/lin29_L4_Tetsu_1_with_chr.bw
@@ -149,7 +149,7 @@ viewLimits 0:500
 priority 2
 
 
-track Peaks_HS 
+track Peaks_HS_0.00001 
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/DamID_UCSC_hub/bigbed/peaks_in_lin29_HS_with_FDR_0.00001_cutoff.bb
 type bigBed
 visibility dense
@@ -158,6 +158,17 @@ longLabel Peaks_HS_Cutoff_FDR_0.00001
 maxHeightPixels 500:150:8
 viewLimits 0:500
 priority 3
+
+track Peaks_HS_0.05 
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/DamID_UCSC_hub/bigbed/peaks_in_lin29_HS_with_FDR_0.05_cutoff.bb
+type bigBed
+visibility dense
+shortLabel Peaks_HS_0.05
+longLabel Peaks_HS_Cutoff_FDR_0.05
+maxHeightPixels 500:150:8
+viewLimits 0:500
+priority 4
+
 
 
 track GATC_sites_2
@@ -168,10 +179,10 @@ shortLabel GATC_sites
 longLabel GATC_sites
 maxHeightPixels 500:150:8
 viewLimits 0:500
-priority 5
+priority 6
 
 
-track Peaks_L4 
+track Peaks_L4_0.00001 
 bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/DamID_UCSC_hub/bigbed/peaks_in_lin29_L4_with_FDR_0.00001_cutoff.bb
 type bigBed
 visibility dense
@@ -179,8 +190,17 @@ shortLabel Peaks_L4_0.00001
 longLabel Peaks_L4_Cutoff_FDR_0.00001
 maxHeightPixels 500:150:8
 viewLimits 0:500
-priority 6
+priority 7
 
+track Peaks_L4_0.05
+bigDataUrl https://de.cyverse.org/anon-files/iplant/home/sijungyun/DamID_UCSC_hub/bigbed/peaks_in_lin29_L4_with_FDR_0.05_cutoff.bb
+type bigBed
+visibility dense
+shortLabel Peaks_L4_0.05
+longLabel Peaks_L4_Cutoff_FDR_0.05
+maxHeightPixels 500:150:8
+viewLimits 0:500
+priority 8
 
 
 
